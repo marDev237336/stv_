@@ -1,0 +1,51 @@
+
+.container {
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #777;
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #777;
+  }
+  
+  /* Couleurs dans les tons verts */
+  
+  body {
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    border-bottom: 2px solid #4caf50;
+  }
+  
+  .col-md-6:first-child {
+    background-color: #c8e6c9;
+  }
+  

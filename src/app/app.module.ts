@@ -11,13 +11,17 @@ import { FooterComponent } from './shared/footer/footer.component';
 
 import { ComponentsModule } from './components/components.module';
 import { ExamplesModule } from './examples/examples.module';
+import { StvHeaderComponent } from './stv-header/stv-header.component';
+import { QuiSommesNousComponent } from './components/qui-sommes-nous/qui-sommes-nous.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    StvHeaderComponent,
+    QuiSommesNousComponent
   ],
   imports: [
     BrowserModule,
