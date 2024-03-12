@@ -2,9 +2,10 @@
     margin-bottom: 0;
 }
 .page-header{
-    background-color: #B2AFAB;
+    background-image: url('../../img/logoStv.png');
+    background-size:100%;
+    background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
     min-height: 100vh;
     max-height: 999px;
     overflow: hidden;
