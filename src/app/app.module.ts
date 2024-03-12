@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
 
+
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
@@ -14,14 +15,14 @@ import { ExamplesModule } from './examples/examples.module';
 import { StvHeaderComponent } from './stv-header/stv-header.component';
 import { QuiSommesNousComponent } from './components/qui-sommes-nous/qui-sommes-nous.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
     StvHeaderComponent,
-    QuiSommesNousComponent
+    QuiSommesNousComponent,
+  
   ],
   imports: [
     BrowserModule,
@@ -31,6 +32,7 @@ import { QuiSommesNousComponent } from './components/qui-sommes-nous/qui-sommes-
     ComponentsModule,
     ExamplesModule,
     AppRoutingModule,
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]
